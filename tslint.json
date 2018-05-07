@@ -1,0 +1,19 @@
+// Kommentare sind erlaubt...
+// https://palantir.github.io/tslint/usage/tslint-json/
+{
+  "extends": "tslint:recommended",
+  "rules": {
+    "quotemark": [false],
+    "semicolon": [false],
+    "ordered-imports":false,
+    "no-trailing-whitespace": false,
+    "curly": false,
+    "no-console": false,
+    "trailing-comma":false,
+    "no-var-requires": false, 
+    "max-line-length":false,
+    // arrow-Funktion müssen eingeklammert werden ==>  err => {...} ist nicht erlaubt ==> (err) => {...}
+    "arrow-parens": false,
+    "max-classes-per-file": false,
+  }
+}
